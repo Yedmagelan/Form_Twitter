@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de connexion title</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .row #logo{
+            height: 100vh;
+            background-color: aqua;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        #logo svg{
+            margin-top: 8rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: auto;
+        }
+        .row .bouttom{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+        .row .bouttom a{
+            text-decoration: none;
+            height: 3rem;
+            text-align: center;
+            border: 0.1rem solid #b5b9b9ee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 70%;
+            border-radius: 3rem;
+            margin-bottom: 1.4rem;
+            font-size: 1rem;
+            font-weight: 400;
+            color: rgb(0, 0, 0);
+        }
+        .row .bouttom a:hover{
+            background-color: #6469699b;
+        }
+        .row .title h1{
+            margin-top: 2rem;
+            font-size: 5rem;
+        }
+        .row .title{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .row .info h3{
+            line-height: 4rem;
+        }
+    </style>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5 text-center bg-info" id="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>  
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7">
+
+                <div class="conteneurlogo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" style="color: #25e0f8ee;">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>  
+                </div>
+                <div class="title">
+                    <h1>Ça se passe </h1>
+                    <h1>maintenant</h1>
+                </div>
+                <div class="info">
+                    <h3>
+                        Rejoignez Twitter dès aujourd'hui.     
+                    </h3>
+                </div>
+                <div class="bouttom">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                          </svg> &nbsp;
+                         S'inscrire avec Google</a>
+                    <a href="#">
+
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 475.088 475.088" style="enable-background:new 0 0 475.088 475.088;"
+	 xml:space="preserve">
+<g>
+	<g>
+		<path d="M391.29,310.91c-13.135-18.842-19.698-40.07-19.698-63.666c0-21.508,6.194-41.213,18.556-59.102
+			c6.662-9.707,17.514-20.934,32.551-33.689c-9.896-12.178-19.793-21.695-29.697-28.549c-17.891-12.37-38.164-18.555-60.812-18.555
+			c-13.511,0-29.979,3.234-49.389,9.71c-18.654,6.471-32.265,9.71-40.826,9.71c-6.475,0-19.606-2.853-39.401-8.566
+			c-19.985-5.711-36.831-8.564-50.535-8.564c-32.738,0-59.766,13.706-81.083,41.112c-21.508,27.79-32.264,63.382-32.264,106.78
+			c0,46.062,13.993,93.928,41.971,143.607c28.358,49.297,57.005,73.949,85.936,73.949c9.707,0,22.27-3.237,37.685-9.708
+			c15.42-6.276,28.933-9.421,40.545-9.421c12.368,0,26.741,3.045,43.109,9.133c17.319,6.085,30.646,9.131,39.971,9.131
+			c24.362,0,48.824-18.654,73.374-55.959c15.985-23.791,27.692-47.582,35.115-71.376C419.458,341.744,404.424,329.753,391.29,310.91
+			z"/>
+		<path d="M294.213,90.219c11.994-11.991,20.844-25.126,26.556-39.399c5.517-14.275,8.271-27.22,8.271-38.832
+			c0-0.759-0.041-1.712-0.144-2.855c-0.086-1.142-0.137-2.091-0.137-2.853c-0.192-0.572-0.428-1.619-0.712-3.14
+			c-0.284-1.521-0.521-2.568-0.716-3.14c-33.499,7.808-57.29,21.892-71.376,42.259c-14.271,20.557-21.698,45.013-22.27,73.373
+			c12.753-1.143,22.646-2.758,29.692-4.853C273.663,107.352,283.929,100.497,294.213,90.219z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+                  &nbsp;      S'inscrire avec Apple</a>
+                    <a href="#"> S'inscrire avec un numéro te Télephon...</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
